@@ -147,7 +147,7 @@ function RPS (yourChoice) {
     }
   }
   
-  console.log(RPS("rock"));
+  console.log(RPS("paper"));
 
   
 
@@ -179,12 +179,12 @@ function ftConverter (ft) {
 
 function annoyingSong (num) {
     for (let i = num; i > 0; i--) {
-      console.log (`${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${num} bottles of soda on the wall`);
+      console.log (`${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i-1} bottles of soda on the wall`);
     }
   }
   
   annoyingSong(99);
-  
+
 
 
 /************************************************************** Task 7 **************************************************************/
